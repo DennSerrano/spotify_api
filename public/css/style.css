@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #020202;
+}
+
+.backgroundPic {
+    background: url(/img/spotify-background\ 1.png)no-repeat;
+    padding: 30vh 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.inputField {
+    padding: 5vh 20vw;
+    background: rgba(245, 247, 246, 0.3)
+}
+
+.btnSearch {
+    background-color: #FF6666;
+    color: white;
+    opacity: 0.;
+}
+
+footer {
+    background-color: #020202;
+    padding: 2vh 0;
+}
+
+footer nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer nav p {
+    color: #fff;
+    padding: 5px;
+
+}
